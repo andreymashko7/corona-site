@@ -1,0 +1,17 @@
+{
+  "name": "corona-site",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https:https://andreymashko7.github.io/corona-site",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^3.2.3"
+  }
+}
